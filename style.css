@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    scroll-behavior: smooth;
+}
+
+body { 
+font-family: "Montserrat", sans-serif;
+} 
+
+li{
+    color: green;
+}
+.container {
+    color: rgba(223, 61, 21, 0.952);
+    background: yellow;
+    height: 6rem;
+    width: 500px;
+    font-size: 1.30rem;
+    margin: 100px;
+    padding: 20px;
+    margin: auto;
+}
+    
+.list-non-bullet{
+    list-style: none;
+    text-align: right;
+}
+
+.list-non-bullet li{
+    display: inline;
+    padding: 0 1rem;
+}
+
+nav{
+    background: rgb(198, 233, 230);
+} 
