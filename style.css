@@ -5,19 +5,16 @@
 }
 
 body { 
-font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgba(102, 208, 250, 0.137);
 } 
 
-li{
-    color: green;
-}
 .container {
-    color: rgba(223, 61, 21, 0.952);
-    background: yellow;
-    height: 6rem;
-    width: 500px;
+    color: rgba(233, 67, 116, 0.952);
+    background: rgba(253, 253, 60, 0.733);
+    height: 3rem;
+    width: 70rem;
     font-size: 1.30rem;
-    margin: 100px;
     padding: 20px;
     margin: auto;
 }
@@ -35,3 +32,87 @@ li{
 nav{
     background: rgb(198, 233, 230);
 } 
+
+.but {
+    background-color: #06c28a69; 
+    border: none;
+    color: white;
+    padding: 6px 6px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.but:hover {
+    background-color: #d1aaeb;
+    color: white;
+}
+
+.connect {
+    background-color: rgba(136, 150, 231, 0.753);
+    border: none;
+    padding: 1rem;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 18px;
+}
+
+.connect:active {
+    box-shadow: #d1aaeb;
+    box-shadow: 0 5px rgba(23, 23, 24, 0.432);
+    transform: translateY(4px);
+}
+
+.project {
+    display: flex;
+}
+
+.chatbot {
+    display: flex;
+    flex-direction: column;
+    marker-end: none;
+    width: 400px;
+    margin: 40px auto;
+    align-items: center;
+    padding: 4% 3%;
+    border: 5px solid rgb(110, 110, 252);
+    height: 10px;
+    box-shadow: 5px 5px 10px rgb(110, 110, 252);
+
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    marker-end: none;
+    width: 400px;
+    margin: 40px auto;
+    align-items: center;
+    padding: 4% 3%;
+    border: 5px solid rgb(255, 114, 114);
+    height: 10px;
+    box-shadow: 5px 5px 10px rgb(255, 114, 114);
+}
+
+@media screen and (min-width: 480px) {
+    .container {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: x-large;
+    }
+
+    ol {
+        font-size: x-large;
+        color: rgb(76, 2, 145);
+    }
+
+}
+
+.image {
+    float: right;
+}
